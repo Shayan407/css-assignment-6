@@ -1,14 +1,37 @@
+body{
+    margin: auto;
+    width: 100%;
+    background-image: url(./colin-watts-O9A0CzC422Q-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size:1370px;
+    background-position: inherit;
+    font-family: montserrat;
+}
+#ac:hover{
+    background-color: white;
+    color:#316FF6;
+}
+#ad:hover{
+    background-color: white;
+    color:#316FF6;
+}
 nav{
     background-color: #316FF6;
     border-radius: 10px;
     max-width: 610px;
     height: 35px;
     margin-top: 2%;
-    padding-top: 0.4%;
+    /* padding-top: 0.2%; */
     padding-right: 1.5%;
     padding-left: -1%;
     /* padding-left: -7%; */
     text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #316FF6;
+    font-family: montserrat;
+    font-size: 13px;
 }
 ul{
     list-style: none;
@@ -37,4 +60,65 @@ ul{
     /* margin-left: 50px; */
     font-size: 20px;
     color: white;
+}
+#a{
+    padding-top: 1px;
+    margin-top: 0%;
+    margin-left: 10%;
+    margin-right: 13.5%;
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    width: 300px;
+}
+input{
+    margin-top: 4%;
+    margin-left: 0%;
+    margin-bottom:0%;
+    margin-right: 0%;
+    padding-left: 3%;
+    width: 250px;
+    height: 30px;
+    border: 1px solid #ccd0d5;
+    border-radius: 6px;
+}
+input::placeholder{
+    font-size: 12px;
+    color: #9fa1a3;
+}
+button{
+    margin-top: 4%;
+    margin-left: 0%;
+    margin-bottom:1%;
+    margin-right: 0%;
+    width: 265px;
+    height: 47px;
+    border: none;
+    border-radius: 6px;
+    background-color: #11285a;
+}
+#b{
+    margin: auto;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+#c{
+    margin: auto;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: #316FF6;
+    font-family: montserrat;
+    font-size: 13px;
+}
+hr{
+    width: 370px;
+    border: 1px solid #ccd0d5;
 }
