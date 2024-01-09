@@ -7,6 +7,13 @@ body{
     background-position: inherit;
     font-family: montserrat;
 }
+.div i{
+    position: absolute;
+    padding: 20px 20px 20px 10px;   
+}
+.input-field{
+    padding-left: 30px;
+}
 #ac:hover{
     background-color: white;
     color:#316FF6;
